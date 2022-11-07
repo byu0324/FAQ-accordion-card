@@ -24,6 +24,13 @@ body {
   font-size: 13px;
 }
 
+.box {
+  position: absolute;
+  z-index: 2;
+  top: 187px;
+  left:-92px;
+}
+
 .faqs {
   position: relative;
   display: flex;
@@ -58,15 +65,29 @@ button {
   font-family: inherit;
   font-size: inherit;
   cursor: pointer;
-  padding: 20px 0;
-}
-
-.Q {
-  
+  width: 350px;
 }
 
 button p {
   display: none;
+  padding-bottom: 18px;
+  text-align: start;
+  color: hsl(240, 6%, 50%);
+}
+
+.Q {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.Q img {
+  height: 100%;
+}
+
+.Q:active {
+  color: hsl(14, 88%, 65%);
 }
 
 .attribution {
