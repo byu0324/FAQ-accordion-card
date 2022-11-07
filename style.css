@@ -17,28 +17,52 @@ body {
 }
 
 .container {
-  width: 940px;
+  width: 920px;
   background-color: white;
   border-radius: 14px;
   position: relative;
+  font-size: 13px;
 }
 
 .faqs {
+  position: relative;
   display: flex;
   overflow: hidden;
-  padding: 40px 0;
+  padding: 55px 0;
+}
+
+.faq__back {
+  position: absolute;
+  top: -294px;
+  left: -578px;
 }
 
 .faq__woman {
   position: relative;
-  left: -125px;
+  left: -84px;
+  height: 100%;
+}
+
+h1 {
+  margin-bottom: 13px;
+}
+
+section {
+  border-bottom: 1px solid hsl(240, 5%, 91%);
 }
 
 button {
   border: none;
+  text-decoration: none;
   background-color: inherit;
   font-family: inherit;
   font-size: inherit;
+  cursor: pointer;
+  padding: 20px 0;
+}
+
+.Q {
+  
 }
 
 button p {
