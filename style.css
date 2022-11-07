@@ -26,12 +26,23 @@ body {
 .faqs {
   display: flex;
   overflow: hidden;
-  padding: 40px;
+  padding: 40px 0;
 }
 
 .faq__woman {
   position: relative;
   left: -125px;
+}
+
+button {
+  border: none;
+  background-color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+button p {
+  display: none;
 }
 
 .attribution {
